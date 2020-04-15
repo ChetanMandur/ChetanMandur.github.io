@@ -5,6 +5,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
         @media screen and (min-width: 601px){
+            
             div.Title{
                 text-align: center;
                 font-family:'Roboto', sans-serif;
@@ -33,7 +34,10 @@
                 font-size: 3.65vw;
                 color:cornflowerblue;
                 font-weight: 700;
+                cursor: default;
             }
+
+            
 
             .SectionText{
                 padding: 0.6vw;
@@ -43,7 +47,25 @@
                 color:gray;
                 font-weight: 500;
                 line-height: 2vw;
+                cursor: default;
 
+            }
+
+
+            .hide{
+                display:none;
+            }
+
+            .hoverable:hover + .hide{
+                display:block;
+                color:gray;
+                text-align: left;
+                font-family:'Roboto', sans-serif;
+                font-size: 1.05vw;
+                color:gray;
+                font-weight: 400;
+                line-height: 1.3vw;
+                cursor: default;
             }
 
             .subList{
@@ -56,6 +78,7 @@
 
 
             }
+
 
             .gapCreation{
                 padding: 1.12vw;
@@ -103,6 +126,19 @@
                 line-height: 3.3vw;
 
             }
+            .hide{
+                display:none;
+            }
+
+            .hoverable:hover + .hide{
+                display:block;
+                text-align: left;
+                font-family:'Roboto', sans-serif;
+                font-size: 2vw;
+                color:gray;
+                font-weight: 400;
+                line-height: 2.7vw;
+            }
 
             .subList{
                 text-align: left;
@@ -143,8 +179,8 @@
     </div>
     <div class = "SectionText">
         <ul>
-            <li>Moderate expereince in multiple programming languages</li>
-            <div class = "subList">
+            <div class = "hoverable"><li>Moderate expereince in multiple programming languages</li></div>
+            <div class = "hide">
             <ul>
                 <li>Python (3.X) since 2016</li>
                 <li>Processing since 2018</li>
@@ -152,6 +188,7 @@
                 <li>Java since 2020</li>
             </ul>
             </div>
+
             <li>Valuable expereience with large scale collaborative projects</li>
             <li>Experience with Git & GitHub</li>
             <li>Knowledgeable use of Office 365 and G-Suite</li>
@@ -255,4 +292,5 @@
             </div>
         </ul>
     </div>
+
 </body>
