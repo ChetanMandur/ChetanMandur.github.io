@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+        @media screen and (min-width: 601px){
+            
+            div.Title{
+                text-align: center;
+                font-family:'Roboto', sans-serif;
+            }
+            .mainTitle{
+            text-align: center;
+            font-size: 6.4vw;  
+            font-family: bebas-neue, sans-serif;
+            font-weight: 700;
+            }
+            .titleSub{
+                text-align: center;
+                font-family:'Roboto', sans-serif;
+                font-size: 1.56vw;
+                color:darkgray;
+                font-weight: 500;
+        
+            }
+            
+
+            .SectionHeader{
+                line-height: 0px;
+                text-align: left;
+                font-family:'Roboto', sans-serif;
+                font-variant: small-caps;
+                font-size: 3.65vw;
+                color:cornflowerblue;
+                font-weight: 700;
+                cursor: default;
+            }
+
+
+            .SectionText{
+                margin-left: 0.6vw;
+                margin-top: 2vw;
+                text-align: left;
+                font-family:'Roboto', sans-serif;
+                font-size: 1.3vw;
+                color:gray;
+                font-weight: 500;
+                line-height: 2vw;
+                cursor: default;
+
+            }
+
+
+            .hide{
+                display:none;
+            }
+
+            .hoverable:hover + .hide{
+                display:block;
+                color:gray;
+                text-align: left;
+                font-family:'Roboto', sans-serif;
+                font-size: 1.05vw;
+                color:gray;
+                font-weight: 400;
+                line-height: 1.3vw;
+                
+            }
+
+            
+
+            .subList{
+                text-align: left;
+                font-family:'Roboto', sans-serif;
+                font-size: 1.05vw;
+                color:gray;
+                font-weight: 400;
+                line-height: 1.3vw;
+
+
+            }
+
+
+            .gapCreation{
+                padding: 1.12vw;
+            }
+
+            a{
+                text-align: left;
+                font-family:'Roboto', sans-serif;
+                font-size: 1.3vw;
+                color:gray;
+                font-weight: 500;
+                line-height: 2vw;
+                
+            }
+
+
+        }
+
+        @media screen and (max-width: 600px){
+            div.Title{
+                text-align: center;
+                font-family:'Roboto', sans-serif;
+                
+            }
+            .mainTitle{
+            text-align: center;
+            font-size: 10vw;  
+            font-family:'Roboto', sans-serif;
+            font-weight: 700;
+            }
+            .titleSub{
+                text-align: center;
+                font-family:'Roboto', sans-serif;
+                font-size: 3vw;
+                color:darkgray;
+                font-weight: 500;
+        
+            }
+            
+
+            .SectionHeader{
+                line-height: 0.6vw;
+                text-align: left;
+                font-family:'Roboto', sans-serif;
+                font-variant: small-caps;
+                font-size: 5vw;
+                color:cornflowerblue;
+                font-weight: 700;
+            }
+
+            .SectionText{
+                text-align: left;
+                font-family:'Roboto', sans-serif;
+                font-size: 2.5vw;
+                color:gray;
+                font-weight: 500;
+                line-height: 3.3vw;
+
+            }
+            .hide{
+                display:none;
+            }
+
+            .hoverable:hover + .hide{
+                display:block;
+                text-align: left;
+                font-family:'Roboto', sans-serif;
+                font-size: 2vw;
+                color:gray;
+                font-weight: 400;
+                line-height: 2.7vw;
+            }
+
+            .subList{
+                text-align: left;
+                font-family:'Roboto', sans-serif;
+                font-size: 2vw;
+                color:gray;
+                font-weight: 400;
+                line-height: 2.7vw;
+                
+            }
+
+            .gapCreation{
+                padding: 2vw;
+            }
+
+            a{
+                text-align: left;
+                font-family:'Roboto', sans-serif;
+                font-size: 2.5vw;
+                color:gray;
+                font-weight: 500;
+                line-height: 3.3vw;
+            }
+
+        }
