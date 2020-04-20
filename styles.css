@@ -7,18 +7,19 @@
                 font-family:'Roboto', sans-serif;
             }
             .mainTitle{
-            text-align: center;
-            font-size: 6.4vw;  
-            font-family: bebas-neue, sans-serif;
-            font-weight: 700;
+                padding-left:3vw;
+                text-align: center;
+                font-size: 6.4vw;  
+                font-family: bebas-neue, sans-serif;
+                font-weight: 700;
             }
             .titleSub{
+                padding-left:3vw;
                 text-align: center;
                 font-family:'Roboto', sans-serif;
                 font-size: 1.56vw;
                 color:darkgray;
                 font-weight: 500;
-        
             }
             
 
@@ -116,6 +117,16 @@
                 top:0;
             }
 
+            .stickyTools a{
+                text-align: right;
+                font-family:'Roboto', sans-serif;
+                font-weight: 400;
+                color: #bdc3c7;
+                font-size: 1vw;
+                line-height: 0vw;
+                text-decoration: none;
+            }
+
 
         }
 
@@ -126,10 +137,12 @@
                 
             }
             .mainTitle{
-            text-align: center;
-            font-size: 10vw;  
-            font-family:'Roboto', sans-serif;
-            font-weight: 700;
+                text-align: center;
+                font-size: 10vw;  
+                font-family:'Roboto', sans-serif;
+                font-weight: 700;
+                padding-left:6vw;
+                
             }
             .titleSub{
                 text-align: center;
@@ -137,6 +150,8 @@
                 font-size: 3vw;
                 color:darkgray;
                 font-weight: 500;
+                padding-left:6vw;
+                
         
             }
             
@@ -203,7 +218,17 @@
                 font-family:'Roboto', sans-serif;
                 font-weight: 400;
                 color: #bdc3c7;
-                font-size: 2.7vw
+                font-size: 1.9vw;
+                
+            }
+            .stickyTools a{
+                text-align: right;
+                font-family:'Roboto', sans-serif;
+                font-weight: 400;
+                color: #bdc3c7;
+                font-size: 1.9vw;
+                line-height: 0vw;
+                text-decoration: none;
             }
 
         }
