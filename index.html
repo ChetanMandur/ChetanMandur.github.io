@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" id="styles" type="text/css" href="styles.css">
     <title>Home</title>
 </head>
 <body>
@@ -130,8 +130,32 @@
                         <a href="https://www.linkedin.com/in/chetanmandur">LinkedIn</a>
                         <br>
                         <a href="https://github.com/ChetanMandur">Github</a>
+                        <br>
+                        <button type="button" onclick="toggle()">Lights</button>
                     </div>
             </div>
         </div>
 
 </body>
+
+
+<!--The core of the stylesheet toggle function was found at https://stackoverflow.com/questions/18368319/toggle-css-sheets-on-click-with-javascript-->
+<script>
+   
+    var background = localStorage.getItem("styleSaved");
+    var currBackground = document.getElementById("styles");
+    currBackground.href = background;
+
+    function toggle() {
+        var el = document.getElementById("styles");
+        if (el.href.match("styles.css")) {
+            el.href = "stylesNight.css";
+            localStorage.setItem("styleSaved", el.href);  
+        }
+        else {
+            el.href = "styles.css";
+            localStorage.setItem("styleSaved", el.href); 
+        }
+    }
+
+</script>
