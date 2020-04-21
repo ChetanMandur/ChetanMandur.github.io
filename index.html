@@ -7,7 +7,7 @@
 </head>
 <body>
         <div class = "row no-gutters">
-            <div class = "col-11 col-lg">
+            <div class = "col-10 col-lg">
                 <div class = "mainTitle">
                     Chetan Mandur
                 </div>
@@ -125,13 +125,13 @@
             
             <div class = "col-auto">
                     <div class= "stickyTools">
+                        <button type="button" id="styleSwitch" onclick="toggle()">Lights</button>
+                        <br>
                         <a href= "resume.pdf">PDF</a>
                         <br>
                         <a href="https://www.linkedin.com/in/chetanmandur">LinkedIn</a>
                         <br>
                         <a href="https://github.com/ChetanMandur">Github</a>
-                        <br>
-                        <button type="button" id="styleSwitch" onclick="toggle()">Lights</button>
                     </div>
             </div>
         </div>
@@ -141,25 +141,34 @@
 
 <!--The core of the stylesheet toggle function was found at https://stackoverflow.com/questions/18368319/toggle-css-sheets-on-click-with-javascript-->
 <script>
-    if (localStorage.getItem("styleSaved") != null ){
+    if (localStorage.getItem("styleSaved") != null || localStorage.getItem("styleText" != null)){
         var background = localStorage.getItem("styleSaved");
+        var butText = localStorage.getItem("styleText");
     }
     else{
         var background = "stylesNight.css";
+        var butText = "Dark Mode";
     }
     
     var currBackground = document.getElementById("styles");
     currBackground.href = background;
+    var currButText = document.getElementById("styleSwitch");
+    currButText.textContent = butText;
 
     function toggle() {
         var el = document.getElementById("styles");
+        var but = document.getElementById("styleSwitch");
         if (el.href.match("styles.css")) {
             el.href = "stylesNight.css";
+            but.textContent = "Light Mode"
             localStorage.setItem("styleSaved", el.href);  
+            localStorage.setItem("styleText",but.textContent);
         }
         else {
             el.href = "styles.css";
+            but.textContent = "Dark Mode"
             localStorage.setItem("styleSaved", el.href); 
+            localStorage.setItem("styleText",but.textContent);
         }
     }
 

@@ -7,14 +7,14 @@
                 font-family:'Roboto', sans-serif;
             }
             .mainTitle{
-                padding-left:3vw;
+                padding-left:7vw;
                 text-align: center;
                 font-size: 6.4vw;  
                 font-family: bebas-neue, sans-serif;
                 font-weight: 700;
             }
             .titleSub{
-                padding-left:3vw;
+                padding-left:7vw;
                 text-align: center;
                 font-family:'Roboto', sans-serif;
                 font-size: 1.56vw;
@@ -134,7 +134,7 @@
                 font-family:'Roboto', sans-serif;
                 font-weight: 400;
                 color: #bdc3c7;
-                font-size: 1vw;
+                font-size: 1.2vw;
                 background-color: Transparent;
                 background-repeat:no-repeat;
                 border: none;
@@ -235,6 +235,9 @@
                 font-weight: 400;
                 color: #bdc3c7;
                 font-size: 1.9vw;
+                position: -webkit-sticky;
+                position: sticky;
+                top:0;
                 
             }
             .stickyTools a{
@@ -242,23 +245,29 @@
                 font-family:'Roboto', sans-serif;
                 font-weight: 400;
                 color: #bdc3c7;
-                font-size: 1.9vw;
+                font-size: 1.7vw;
                 line-height: 0vw;
                 text-decoration: none;
             }
 
             button{
+                padding-right: 0vw;
                 text-align: right;
                 font-family:'Roboto', sans-serif;
                 font-weight: 400;
                 color: #bdc3c7;
-                font-size: 1.9vw;
+                font-size: 2vw;
                 background-color: Transparent;
                 background-repeat:no-repeat;
                 border: none;
                 cursor:pointer;
                 overflow: hidden;
                 outline:none;
+                padding-right:0vw;
+                padding-left: 5vw;
+                border-radius: auto;
+                height: auto;
+                width: auto;
 
             }
 
