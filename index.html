@@ -131,7 +131,7 @@
                         <br>
                         <a href="https://github.com/ChetanMandur">Github</a>
                         <br>
-                        <button type="button" onclick="toggle()">Lights</button>
+                        <button type="button" id="styleSwitch" onclick="toggle()">Lights</button>
                     </div>
             </div>
         </div>
@@ -145,7 +145,7 @@
         var background = localStorage.getItem("styleSaved");
     }
     else{
-        var background = "styles.css";
+        var background = "stylesNight.css";
     }
     
     var currBackground = document.getElementById("styles");

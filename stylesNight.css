@@ -14,13 +14,14 @@
                 font-size: 6.4vw;  
                 font-family: bebas-neue, sans-serif;
                 font-weight: 700;
+                color: #dfe4ea;
             }
             .titleSub{
                 padding-left:3vw;
                 text-align: center;
                 font-family:'Roboto', sans-serif;
                 font-size: 1.56vw;
-                color:darkgray;
+                color:#9ba1a8;
                 font-weight: 500;
             }
             
@@ -31,7 +32,7 @@
                 font-family:'Roboto', sans-serif;
                 font-variant: small-caps;
                 font-size: 3.65vw;
-                color:cornflowerblue;
+                color: #5480d1;
                 font-weight: 700;
                 cursor: default;
             }
@@ -43,7 +44,7 @@
                 text-align: left;
                 font-family:'Roboto', sans-serif;
                 font-size: 1.3vw;
-                color:gray;
+                color:#97a0a8;
                 font-weight: 500;
                 line-height: 2vw;
                 cursor: default;
@@ -57,11 +58,10 @@
 
             .hoverable:hover + .hide{
                 display:block;
-                color:gray;
                 text-align: left;
                 font-family:'Roboto', sans-serif;
                 font-size: 1.05vw;
-                color:gray;
+                color:#97a0a8;
                 font-weight: 400;
                 line-height: 1.3vw;
                 
@@ -73,7 +73,7 @@
                 text-align: left;
                 font-family:'Roboto', sans-serif;
                 font-size: 1.05vw;
-                color:gray;
+                color:#97a0a8;
                 font-weight: 400;
                 line-height: 1.3vw;
 
@@ -89,7 +89,7 @@
                 text-align: left;
                 font-family:'Roboto', sans-serif;
                 font-size: 1.3vw;
-                color:gray;
+                color:#97a0a8;
                 font-weight: 500;
                 line-height: 2vw;
                 text-decoration: underline;
@@ -100,7 +100,7 @@
                 text-align: left;
                 font-family:'Roboto', sans-serif;
                 font-size: 1.3vw;
-                color:gray;
+                color:#97a0a8;
                 font-weight: 500;
                 line-height: 2vw;
                 text-decoration: underline;
@@ -159,6 +159,7 @@
             }
             .mainTitle{
                 text-align: center;
+                color: #dfe4ea;
                 font-size: 10vw;  
                 font-family:'Roboto', sans-serif;
                 font-weight: 700;
@@ -169,7 +170,7 @@
                 text-align: center;
                 font-family:'Roboto', sans-serif;
                 font-size: 3vw;
-                color:darkgray;
+                color:#9ba1a8;
                 font-weight: 500;
                 padding-left:6vw;
                 
@@ -183,7 +184,7 @@
                 font-family:'Roboto', sans-serif;
                 font-variant: small-caps;
                 font-size: 5vw;
-                color:cornflowerblue;
+                color: #5480d1;
                 font-weight: 700;
             }
 
@@ -192,7 +193,7 @@
                 text-align: left;
                 font-family:'Roboto', sans-serif;
                 font-size: 2.5vw;
-                color:gray;
+                color:#97a0a8;
                 font-weight: 500;
                 line-height: 3.3vw;
 
@@ -206,7 +207,7 @@
                 text-align: left;
                 font-family:'Roboto', sans-serif;
                 font-size: 2vw;
-                color:gray;
+                color:#97a0a8;
                 font-weight: 400;
                 line-height: 2.7vw;
             }
@@ -215,7 +216,7 @@
                 text-align: left;
                 font-family:'Roboto', sans-serif;
                 font-size: 2vw;
-                color:gray;
+                color:#97a0a8;
                 font-weight: 400;
                 line-height: 2.7vw;
                 
@@ -229,7 +230,7 @@
                 text-align: left;
                 font-family:'Roboto', sans-serif;
                 font-size: 2.5vw;
-                color:gray;
+                color:#97a0a8;
                 font-weight: 500;
                 line-height: 3.3vw;
                 text-decoration: underline;
