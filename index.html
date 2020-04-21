@@ -141,8 +141,12 @@
 
 <!--The core of the stylesheet toggle function was found at https://stackoverflow.com/questions/18368319/toggle-css-sheets-on-click-with-javascript-->
 <script>
-   
-    var background = localStorage.getItem("styleSaved");
+    try{
+        var background = localStorage.getItem("styleSaved");
+    }
+    catch{
+        var background = "styles.css";
+    }
     var currBackground = document.getElementById("styles");
     currBackground.href = background;
 
