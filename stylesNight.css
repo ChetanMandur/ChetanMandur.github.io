@@ -247,8 +247,8 @@
                 position: sticky;
                 top:0;
                 
-                
             }
+
             .stickyTools a{
                 text-align: right;
                 font-family:'Roboto', sans-serif;
@@ -277,9 +277,6 @@
                 border-radius: auto;
                 height: auto;
                 width: auto;
-
-                
-
             }
 
         }

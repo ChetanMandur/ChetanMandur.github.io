@@ -124,15 +124,15 @@
 
             
             <div class = "col-auto">
-                    <div class= "stickyTools">
-                        <button type="button" id="styleSwitch" onclick="toggle()">Lights</button>
-                        <br>
-                        <a href= "resume.pdf">PDF</a>
-                        <br>
-                        <a href="https://www.linkedin.com/in/chetanmandur">LinkedIn</a>
-                        <br>
-                        <a href="https://github.com/ChetanMandur">Github</a>
-                    </div>
+                <div class= "stickyTools">
+                    <button type="button" id="styleSwitch" onclick="toggle()">Lights</button>
+                    <br>
+                    <a href= "resume.pdf">PDF</a>
+                    <br>
+                    <a href="https://www.linkedin.com/in/chetanmandur">LinkedIn</a>
+                    <br>
+                    <a href="https://github.com/ChetanMandur">Github</a>
+                </div>
             </div>
         </div>
 
@@ -160,13 +160,13 @@
         var but = document.getElementById("styleSwitch");
         if (el.href.match("styles.css")) {
             el.href = "stylesNight.css";
-            but.textContent = "Light Mode"
+            but.textContent = "Light Mode";
             localStorage.setItem("styleSaved", el.href);  
             localStorage.setItem("styleText",but.textContent);
         }
         else {
             el.href = "styles.css";
-            but.textContent = "Dark Mode"
+            but.textContent = "Dark Mode";
             localStorage.setItem("styleSaved", el.href); 
             localStorage.setItem("styleText",but.textContent);
         }
