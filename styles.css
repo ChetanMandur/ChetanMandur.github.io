@@ -34,10 +34,23 @@
                 cursor: default;
             }
 
+            .SectionHeader2{
+                padding-top: 2vw;
+                padding-left: 3vw;
+                line-height: 0vw;
+                text-align: left;
+                font-family:'Roboto', sans-serif;
+                font-variant: small-caps;
+                font-size: 5vw;
+                color: cornflowerblue;
+                font-weight: 700;
+                cursor: default;
+            }
+
 
             .SectionText{
                 margin-left: 0.6vw;
-                margin-top: 2vw;
+                
                 text-align: left;
                 font-family:'Roboto', sans-serif;
                 font-size: 1.3vw;
@@ -46,6 +59,16 @@
                 line-height: 2vw;
                 cursor: default;
 
+            }
+
+            .SectionText2{
+                text-align: right;
+                font-family:'Roboto', sans-serif;
+                font-size: 1.4vw;
+                color:gray;
+                font-weight: 500;
+                line-height: 2vw;
+                cursor: default;
             }
 
 
@@ -123,9 +146,13 @@
                 font-family:'Roboto', sans-serif;
                 font-weight: 400;
                 color: #bdc3c7;
-                font-size: 1vw;
+                font-size: 1.5vw;
                 line-height: 0vw;
                 text-decoration: none;
+            }
+
+            .stickyTools a i{
+                font-size: 1.7vw;
             }
 
             button{
@@ -143,6 +170,46 @@
                 outline:none;
             }
 
+             /* in projects, this is used for the icons for each project */
+             li a i{ 
+                font-size:2vw;
+            }
+
+            .SectionText2 li a{
+                font-size:1.4vw;
+            }
+
+            .SectionHeader2 i{
+                font-weight: normal;
+                padding-top: 0vw;
+                padding-left: 0vw;
+                line-height: 0vw;
+            }
+
+            .homeButton{
+                text-align: right;
+                font-family:'Roboto', sans-serif;
+                font-weight: 400;
+                color: #bdc3c7;
+                font-size: 1vw;
+               
+            }
+
+            .homeButton a{
+                text-align: right;
+                font-family:'Roboto', sans-serif;
+                font-weight: 400;
+                color: #bdc3c7;
+                font-size: 1.5vw;
+                line-height: 0vw;
+                text-decoration: none;
+            }
+
+            .homeButton a i{
+                font-size: 2vw;
+            }
+            
+
 
         }
 
@@ -157,7 +224,7 @@
                 font-size: 10vw;  
                 font-family:'Roboto', sans-serif;
                 font-weight: 700;
-                padding-left:6vw;
+                padding-left:13vw;
                 
             }
             .titleSub{
@@ -166,7 +233,7 @@
                 font-size: 3vw;
                 color:darkgray;
                 font-weight: 500;
-                padding-left:6vw;
+                padding-left:13vw;
                 
         
             }
@@ -182,6 +249,19 @@
                 font-weight: 700;
             }
 
+            .SectionHeader2{
+                
+                padding-left: 1.2vw;
+                line-height: 5vw;
+                text-align: left;
+                font-family:'Roboto', sans-serif;
+                font-variant: small-caps;
+                font-size: 5vw;
+                color: #5480d1;
+                font-weight: 700;
+                cursor: default;
+            }
+
             .SectionText{
                 margin-top: 2.3vw;
                 text-align: left;
@@ -192,6 +272,16 @@
                 line-height: 3.3vw;
 
             }
+            .SectionText2{
+                text-align: right;
+                font-family:'Roboto', sans-serif;
+                font-size: 2vw;
+                color:#97a0a8;
+                font-weight: 500;
+                line-height: 3.3vw;
+                cursor: default;
+            }
+
             .hide{
                 display:none;
             }
@@ -250,6 +340,10 @@
                 text-decoration: none;
             }
 
+            .stickyTools a i{
+                font-size: 3vw;
+            }
+
             button{
                 padding-right: 0vw;
                 text-align: right;
@@ -269,6 +363,45 @@
                 height: auto;
                 width: auto;
 
+            }
+
+            /* in projects, this is used for the icons for each project */
+            li a i{ 
+                font-size:2vw;
+            }
+
+            .SectionText2 li a{
+                font-size:2vw;
+            }
+
+            .SectionHeader2 i{
+                font-weight: normal;
+                padding-top: 0vw;
+                padding-left: 0vw;
+                line-height: 0vw;
+            }
+
+            .homeButton{
+                text-align: right;
+                font-family:'Roboto', sans-serif;
+                font-weight: 400;
+                color: #bdc3c7;
+                font-size: 1.9vw;
+               
+            }
+
+            .homeButton a{
+                text-align: right;
+                font-family:'Roboto', sans-serif;
+                font-weight: 400;
+                color: #bdc3c7;
+                font-size: 1.7vw;
+                line-height: 0vw;
+                text-decoration: none;
+            }
+
+            .homeButton a i{
+                font-size: 2vw;
             }
 
         }
